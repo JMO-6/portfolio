@@ -1,6 +1,6 @@
 @import url('https://unpkg.com/@tailwindcss/typography@0.2.x/dist/typography.min.css');
 @import url('https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css');
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
 
 .cursive {
   font-family: 'Lato', cursive;
@@ -13,6 +13,14 @@
   border-radius: 5px;
 }
 
+.main {
+  height: 100vh;
+}
+
 .home-name {
-  font-size: 150px;
+  font-size: 30px;
+}
+
+.home-description {
+  font-size: 60px;
 }
